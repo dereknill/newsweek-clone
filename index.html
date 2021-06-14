@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Newsweek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+        crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/64486ec299.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-main overflow-hidden">
+        <header>
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex align-items-end">
+                    <div class="d-flex flex-column justify-content-between ps-4 pb-4">
+                        <div class="text-white fw-bold">
+                            <i class="fas fa-cloud-sun"></i> 83° Irvine, CA
+                        </div>
+                        <div class="text-white">Wed, June 9, 2021</div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-start justify-content-lg-center ">
+                    <div class="logo-container">
+                        <img src="https://foolmonkey.github.io/newsweek-bootstrap-clone/Newsweek_Logo.svg" class="logo p-0">
+                    </div>
+                </div>
+                <div class="col-3 d-none d-lg-flex justify-content-end align-items-end">
+                    <div class="d-flex pb-4 pe-4">
+                        <a class="text-white font-weight-bold d-flex align-items-center" href="">
+                            <p class="mb-0 d-none d-sm-block fw-bold">LOGIN</p>
+                            <i class="fas fa-user d-block d-sm-none"></i>
+                        </a>
+                        <button type="button" class="badge rounded-pill border-0 btn-sub fw-bold px-3 py-1 fs-6 ms-3">
+                            SUBSCRIBE >
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex d-lg-none justify-content-end align-items-center">
+                    <div class="d-flex pb-0 pe-0">
+                        <a class="text-white d-flex align-items-center" href="">
+                            <p class="mb-0 d-none d-sm-block fw-bold">LOGIN</p>
+                            <i class="fas fa-user d-block d-sm-none"></i>
+                        </a>
+                        <button type="button" class="badge rounded-pill border-0 btn-sub px-3 py-1 fs-6 ms-3">
+                            SUBSCRIBE >
+                        </button>
+                        <div>
+                            <i class="fas fa-bars text-grey p-0 m-0 align-middle fa-override text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="d-none d-lg-flex flex-column bg-white">
+            <div id="middle-header">
+                <ul class="list-unstyled d-flex flex-row justify-content-between align-items-center py-2">
+                    <li><a href="#">U.S.</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+
+                    <li><a href="#">Tech & Science</a></li>
+
+                    <li><a href="#">Culture</a></li>
+
+                    <li><a href="#">Newsgeek</a></li>
+
+                    <li><a href="#">Sports</a></li>
+
+                    <li><a href="#">Health</a></li>
+
+                    <li><a href="#">The Debate</a></li>
+
+                    <li><a href="#">Vantage</a></li>
+
+                    <li><a href="#">Weather</a></li>
+
+                    <li class="searchbar d-flex flex-row align-items-center"><input type="search" class="border-0" placeholder="Search">
+                        <i class="fas fa-search"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="trending">
+                <ul>
+                    <li>TRENDING</li>
+                    <li><a href="#">DONAND TRUMP</a></li>
+                    <li><a href="#">JOE BIDEN</a></li>
+                    <li><a href="#">CHINA</a></li>
+                    <li><a href="#">CORONAVIRUS</a></li>
+                    <li><a href="#">2020 ELECTION</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="p-4 bg-white main">
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-6 col-lg">
+                    <p class="text-grey fw-bold">FEATURED STORIES</p>
+
+                    <!-- STORY BEGIN -->
+                    <div class="img-container"><img class="img-fluid"
+                            src="https://d.newsweek.com/en/full/1628242/turkish-officer-standing-next-alan-kurdi.webp?w=397&h=265&l=26&t=83&q=90&f=36e5fbb577794a4994ed98fb5eb1ffee">
+                        <div class="text-overlay"><a href="#">WORLD</a></div>
+                    </div>
+                    <p class="fw-bold fs-5 lh-sm story-title">
+                        <a href="#">Five Years After Alan Kurdi, Refugees at Highest Number Since World War II</a>
+                    </p>
+
+                    <p class="lh-sm story-text">Around 1 percent of the world's population is forcibly displaced so what impact did the photo of Alan Kurdi that "shook the world" really have?</p>
+
+                    <!-- STORY END -->
+
+                    <!-- STORY BEGIN -->
+                    <div class="img-container"><img class="img-fluid" src="https://d.newsweek.com/en/full/1628236/kenosha.webp?w=397&h=265&q=90&f=67fbc458a606c1f75cd1abb29e024b1c">
+                        <div class="text-overlay"><a href="#">U.S.</a></div>
+                    </div>
+                    <p class="fw-bold fs-5 lh-sm story-title">
+                        <a href="#">Kenosha Shooting Video Shows Gunman Open Fire On Protesters
+                        </a>
+                    </p>
+
+                    <p class="lh-sm story-text">Three people were shot as the third night of protests over the police shooting of Jacob Blake, a Black man, turned deadly.</p>
+
+                    <!-- STORY END -->
+
+                    <!-- STORY BEGIN -->
+                    <div class="img-container"><img class="img-fluid" src="https://d.newsweek.com/en/full/1628112/hurricane-laura.webp?w=397&h=265&q=90&f=cedcadc5ce681e660c8286202f482883">
+                        <div class="text-overlay"><a href="#">TECH & SCIENCE</a></div>
+                    </div>
+                    <p class="fw-bold fs-5 lh-sm story-title">
+                        <a href="#">Hurricane Laura Could Become a COVID-19 Superspreader as Storm Intensifies
+                        </a>
+                    </p>
+
+                    <p class="lh-sm story-text">"In every scenario we analyzed, hurricane evacuations cause an increase in the number of COVID-19 cases," Kristy Dahl, the co-author of one recent
+                        academic study,
+                        recently warned.
+                    </p>
+
+                    <!-- STORY END -->
+
+                    <!-- STORY BEGIN -->
+                    <div class="img-container"><img class="img-fluid" src="https://d.newsweek.com/en/full/1627928/trump.webp?w=397&h=265&q=90&f=17db5f23993e16287950b4d0635ddc70">
+                        <div class="text-overlay"><a href="#">TECH & SCIENCE</a></div>
+                    </div>
+                    <p class="fw-bold fs-5 lh-sm story-title">
+                        <a href="#">Key Republicans Are Helping Biden. What Do They Want if They Win?
+                        </a>
+                    </p>
+
+                    <p class="lh-sm story-text">Joe Biden's presidential campaign is getting a big boost from an unlikely source—an increasingly long line of prominent Republicans who want to help him
+                        beat
+                        President Donald Trump.
+                    </p>
+
+                    <!-- STORY END -->
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5">
+                    <p class="text-grey fw-bold">TOP STORY</p>
+
+                    <!-- STORY BEGIN -->
+                    <div class="img-container"><img class="img-fluid" src="https://d.newsweek.com/en/full/1626925/kushner-trump-uae-israel-mideast.webp?w=591&h=364&f=6333e5f2f183cb32e6f50f720862638b">
+                        <div class="text-overlay"><a href="#">TECH & SCIENCE</a></div>
+                    </div>
+                    <p class="fw-bold fs-5 lh-sm story-title">
+                        <a href="#">Exclusive: Israeli Deals with Gulf States an 'Inevitability,' Says Kushner
+                        </a>
+                    </p>
+
+                    <p class="lh-sm story-text">The Trump administration's success in brokering an agreement between Israel and the UAE "has changed everyone's attitude," Kushner told Newsweek.
+                    </p>
+
+                    <!-- STORY END -->
+                    <p class="more-stories text-grey fw-bold m-0">MORE STORIES</p>
+                    <!-- MORE STORY START -->
+                    <div class="more-stories">
+                        <div class="row gx-3">
+                            <div class="col-auto"><img src="https://d.newsweek.com/en/full/1629261/pelosi.webp?w=95&h=95&f=fb3e11f5da857c34a9fa6474357e2aef">
+                            </div>
+                            <div class="col">
+                                <a href="#">Stimulus Checks Blocked by Stalemate 15 Weeks After House Passed Them</a>
+                                <div class="subtitle">The HEROES Act passed the lower chamber of Congress 105 days ago, though a bipartisan agreement which could also make it through the Senate
+                                    has
+                                    not
+                                    been reached.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MORE STORY END -->
+
+                    <!-- MORE STORY START -->
+                    <div class="more-stories">
+                        <div class="row gx-3">
+                            <div class="col-auto"><img src="https://d.newsweek.com/en/full/1629261/pelosi.webp?w=95&h=95&f=fb3e11f5da857c34a9fa6474357e2aef">
+                            </div>
+                            <div class="col">
+                                <a href="#">Stimulus Checks Blocked by Stalemate 15 Weeks After House Passed Them</a>
+                                <div class="subtitle">The HEROES Act passed the lower chamber of Congress 105 days ago, though a bipartisan agreement which could also make it through the Senate
+                                    has
+                                    not
+                                    been reached.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MORE STORY END -->
+
+                    <!-- MORE STORY START -->
+                    <div class="more-stories">
+                        <div class="row gx-3">
+                            <div class="col-auto"><img src="https://d.newsweek.com/en/full/1629261/pelosi.webp?w=95&h=95&f=fb3e11f5da857c34a9fa6474357e2aef">
+                            </div>
+                            <div class="col">
+                                <a href="#">Stimulus Checks Blocked by Stalemate 15 Weeks After House Passed Them</a>
+                                <div class="subtitle">The HEROES Act passed the lower chamber of Congress 105 days ago, though a bipartisan agreement which could also make it through the Senate
+                                    has
+                                    not
+                                    been reached.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MORE STORY END -->
+
+                    <!-- MORE STORY START -->
+                    <div class="more-stories">
+                        <div class="row gx-3">
+                            <div class="col-auto"><img src="https://d.newsweek.com/en/full/1629261/pelosi.webp?w=95&h=95&f=fb3e11f5da857c34a9fa6474357e2aef">
+                            </div>
+                            <div class="col">
+                                <a href="#">Stimulus Checks Blocked by Stalemate 15 Weeks After House Passed Them</a>
+                                <div class="subtitle">The HEROES Act passed the lower chamber of Congress 105 days ago, though a bipartisan agreement which could also make it through the Senate
+                                    has
+                                    not
+                                    been reached.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MORE STORY END -->
+
+                    <!-- MORE STORY START -->
+                    <div class="more-stories">
+                        <div class="row gx-3">
+                            <div class="col-auto"><img src="https://d.newsweek.com/en/full/1629261/pelosi.webp?w=95&h=95&f=fb3e11f5da857c34a9fa6474357e2aef">
+                            </div>
+                            <div class="col">
+                                <a href="#">Stimulus Checks Blocked by Stalemate 15 Weeks After House Passed Them</a>
+                                <div class="subtitle">The HEROES Act passed the lower chamber of Congress 105 days ago, though a bipartisan agreement which could also make it through the Senate
+                                    has
+                                    not
+                                    been reached.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MORE STORY END -->
+                </div>
+                <div class="col-md-12 col-lg">
+                    <p class="text-grey fw-bold">THE DEBATE</p>
+                    <div class="debate">
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+                        <div class="vs-container">
+                            <div class="vs">VS</div>
+                        </div>
+                        <div class="row gx-3 mb-2">
+
+                            <div class="col">
+                                <a href="#">Reject 'No First Use' Nuclear Policy
+                                </a>
+                                <p>BY <span class="fw-bold">REBECCAH HEINRICHS
+                                    </span></p>
+                            </div>
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1600825/rebeccah-heinrichs.webp?w=150&h=150&f=d8c1713c2a5f12a25950ed17ab4098f0">
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="text-grey fw-bold">OPINION</p>
+                    <div class="opinion">
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="row gx-3">
+                            <div class="col-auto">
+                                <img src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                            </div>
+                            <div class="col">
+                                <a href="#">U.S. Must End Nuclear 'First Strike' Policy
+                                </a>
+                                <p>BY <span class="fw-bold">GREG MITCHELL</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="signup-container">
+                        <p>
+                            START YOUR DAY WITH OUR TOP 5 ARTICLES
+                        </p>
+                        <input type="email" class="form-control" placeholder="Email Address">
+                        <button type="button" class="btn fw-bold text-white mt-3 bg-red w-100">FREE SIGN UP ></button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="title">EDITOR'S PICK</p>
+            <div class="d-flex justify-content-between flex-wrap">
+                <!-- CARD BEGIN -->
+                <div class="card border-0">
+                    <div class="img-container">
+                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1627841/lnu-lightning-complex-fire-california-august-2020.webp?w=397&h=265&f=3a2a51da5d8de5e2bc67acfae1a6bdda">
+                        <div class="text-overlay">TECH & SCIENCE</div>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="fs-5 lh-sm fw-bold">
+                            <a href="#">When Will Bay Area Smoke Clear? California Sees 'Hazardous' Air Quality</a>
+                        </div>
+                        <div class="card-text my-2 lh-sm">The air quality in the Bay Area is expected to be at a moderate level from Thursday.</div>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                <!-- CARD BEGIN -->
+                <div class="card border-0">
+                    <div class="img-container">
+                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1627841/lnu-lightning-complex-fire-california-august-2020.webp?w=397&h=265&f=3a2a51da5d8de5e2bc67acfae1a6bdda">
+                        <div class="text-overlay">TECH & SCIENCE</div>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="fs-5 lh-sm fw-bold">
+                            <a href="#">When Will Bay Area Smoke Clear? California Sees 'Hazardous' Air Quality</a>
+                        </div>
+                        <div class="card-text my-2 lh-sm">The air quality in the Bay Area is expected to be at a moderate level from Thursday.</div>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                <!-- CARD BEGIN -->
+                <div class="card border-0">
+                    <div class="img-container">
+                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1627841/lnu-lightning-complex-fire-california-august-2020.webp?w=397&h=265&f=3a2a51da5d8de5e2bc67acfae1a6bdda">
+                        <div class="text-overlay">TECH & SCIENCE</div>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="fs-5 lh-sm fw-bold">
+                            <a href="#">When Will Bay Area Smoke Clear? California Sees 'Hazardous' Air Quality</a>
+                        </div>
+                        <div class="card-text my-2 lh-sm">The air quality in the Bay Area is expected to be at a moderate level from Thursday.</div>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                <!-- CARD BEGIN -->
+                <div class="card border-0">
+                    <div class="img-container">
+                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1627841/lnu-lightning-complex-fire-california-august-2020.webp?w=397&h=265&f=3a2a51da5d8de5e2bc67acfae1a6bdda">
+                        <div class="text-overlay">TECH & SCIENCE</div>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="fs-5 lh-sm fw-bold">
+                            <a href="#">When Will Bay Area Smoke Clear? California Sees 'Hazardous' Air Quality</a>
+                        </div>
+                        <div class="card-text my-2 lh-sm">The air quality in the Bay Area is expected to be at a moderate level from Thursday.</div>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                <!-- CARD BEGIN -->
+                <div class="card border-0">
+                    <div class="img-container">
+                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1627841/lnu-lightning-complex-fire-california-august-2020.webp?w=397&h=265&f=3a2a51da5d8de5e2bc67acfae1a6bdda">
+                        <div class="text-overlay">TECH & SCIENCE</div>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="fs-5 lh-sm fw-bold">
+                            <a href="#">When Will Bay Area Smoke Clear? California Sees 'Hazardous' Air Quality</a>
+                        </div>
+                        <div class="card-text my-2 lh-sm">The air quality in the Bay Area is expected to be at a moderate level from Thursday.</div>
+                    </div>
+                </div>
+                <!-- CARD END -->
+            </div>
+        </div>
+    </div>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
